@@ -11,7 +11,7 @@ This is a small web-site project, consisting only of HTML, CSS, and enough JavaS
 The steps presented here are *all* performed in a Terminal, on the Command line. On a Mac, press `CMD-SPACE` and type `terminal` (spotlight will show you the Terminal command long before you finish typing; you just need to type enough to get it to recognize what you're doing.) On Windows, run the `Git Bash` program you installed in the "Intro to Git" class.
 
 
-## First: locate where your working project directory will be.
+## If you do not have a place for your projects, make one
 
 You might want to have all your projects organized under the same directory on your system. A directory called "Projects" or "Develoment" are good choices, but if you think of something better, use it. The point is that it's for your convenience. In your open Terminal, type:
 
@@ -25,13 +25,17 @@ Then type:
 
 This creates the directory where your projects will live.
 
+You should only do the above steps **once** on your computer.
+
+## Start in your working projects directory
+
 Change directories to this working project directory:
 
     cd ~/Projects
 
 ## Decide on a project name
 
-Think of a good name for your project so that you'll remember where it is. Avoid using spaces, instead use dashes or underscores.
+Think of a good name for your project so that you'll remember where it is. Avoid using spaces, instead use dashes or underscores. See [Naming Rules](naming-rules.md).
 
 | Bad | Good |
 |:--------------:|:--------------:|
