@@ -29,7 +29,7 @@ You should only do the above steps **once** on your computer.
 
 ## Start in your working projects directory
 
-Change directories to this working project directory:
+Change directories to your working projects directory:
 
     cd ~/Projects
 
