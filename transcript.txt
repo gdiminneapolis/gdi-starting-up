@@ -1,0 +1,19 @@
+$ cd
+$ mkdir -p Projects
+$ cd ~/Projects
+$ git init doggie_diner_brochure_site
+Initialized empty Git repository in /Users/tamara/Projects/doggie_diner_brochure_site/.git/
+$ cd doggie_diner_brochure_site
+$ echo 'The Doggie Diner Brochure Web Site Project' > README.md
+$ touch .gitignore
+$ git add --all -v
+add '.gitignore'
+add 'README.md'
+$ git commit -m "Initial Commit"
+[master (root-commit) de80613] Initial Commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+$ git status
+On branch master
+nothing to commit, working directory clean

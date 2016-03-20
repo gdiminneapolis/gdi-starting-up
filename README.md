@@ -25,6 +25,10 @@ Then type:
 
 This creates the directory where your projects will live.
 
+Change directories to this working project directory:
+
+    cd ~/Projects
+
 ## Decide on a project name
 
 Think of a good name for your project so that you'll remember where it is. Avoid using spaces, instead use dashes or underscores.
@@ -64,3 +68,27 @@ Let's give your project the name of `doggie_diner_brochure_site`.
 If you start every project this way, you'll have a good uniform set of projects and practice using Git. Soon this will become muscle memory.
 
 It probably feels odd to rely more heavily on the command line than to use GUI desktop tools. The more you use the command line, the more you'll find it easier to use.
+
+# This is a log of an example using the above steps:
+
+``` bash
+$ cd
+$ mkdir -p Projects
+$ cd ~/Projects
+$ git init doggie_diner_brochure_site
+Initialized empty Git repository in /Users/tamara/Projects/doggie_diner_brochure_site/.git/
+$ cd doggie_diner_brochure_site
+$ echo 'The Doggie Diner Brochure Web Site Project' > README.md
+$ touch .gitignore
+$ git add --all -v
+add '.gitignore'
+add 'README.md'
+$ git commit -m "Initial Commit"
+[master (root-commit) de80613] Initial Commit
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+$ git status
+On branch master
+nothing to commit, working directory clean
+```
