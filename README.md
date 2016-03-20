@@ -4,7 +4,7 @@ A common set of steps to create a new project to work on. This is intended for s
 
 ## Assumptions
 
-This is a small web-site project, consisting only of HTML, CSS, and enough JavaScript to have things work. Building a JavaScript applicaiton or a server-side application will be a bit more complex, but the essentials are still the same as described here, just possibly using different tools.
+This is a small web-site project, consisting only of HTML, CSS, and enough JavaScript to have things work. Building a JavaScript application or a server-side application will be a bit more complex, but the essentials are still the same as described here, just possibly using different tools.
 
 ## Caveat
 
