@@ -15,11 +15,18 @@ Working on web pages introduces some rules you'll need to follow.
 
 ## Examples
 
+These files would show up in URL addresses:
+
 * `index.html`
 * `css/style.css`
 * `about-me.html`
 * `project-portfolio/index.html`
 * `images/blue-bird-of-happiness.jpg`
 * `images/blue-bird-of-happiness.thumbnail.gif`
+
+These files would *NOT* show up in URLs:
+
 * `README.md`
 * `LICENSE.txt`
+* `node_modules/`
+* `bower_components/`

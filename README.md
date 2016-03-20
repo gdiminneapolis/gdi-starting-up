@@ -1,6 +1,6 @@
 # Starting Up a New Project
 
-A common set of steps to create a new project to work on.
+A common set of steps to create a new project to work on. This is intended for students in the [GDI](https://gdiminneapolis.com) [Front-End Cohort](http://gdiminneapolis.com/front-end-developer-series/). *Don't be shy, Develop it!*
 
 ## Assumptions
 
