@@ -261,26 +261,18 @@ www.tamouse.org/
   Guardfile
   humans.txt
   img/
-    art.jpg
-    art_o.jpg
-    beachcreatures-bw-crop-blur.jpg
-    beachcreatures-bw-crop-o.jpg
-    beachcreatures-bw-crop.jpg
-    blog.jpg
-    logo-01.ai
-    logo-01.gif
+    boxes/
+      art.jpg
+      blog.jpg
+      recipes.jpg
+      resume.jpg
+      swaac.jpg
+      wiki.jpg
+    hero.jpg
     logo-01.jpg
     logo-01.png
     logo-01.svg
-    recipes.jpg
-    resume-o.jpg
-    resume.jpg
-    swaac.jpg
-    tamouse-sig.jpg
-    tamouse-sig_greyscale.jpg
-    tamouse-sig_trans_grey.gif
-    wiki.jpg
-    word_map.png
+    wolrd_map.png
   index.html
   js/
     main.js
