@@ -10,22 +10,14 @@ This is a small web-site project, consisting only of HTML, CSS, and enough JavaS
 
 The steps presented here are *all* performed in a Terminal, on the Command line. On a Mac, press `CMD-SPACE` and type `terminal` (spotlight will show you the Terminal command long before you finish typing; you just need to type enough to get it to recognize what you're doing.) On Windows, run the `Git Bash` program you installed in the "Intro to Git" class.
 
-
 ## If you do not have a place for your projects, make one
 
-You might want to have all your projects organized under the same directory on your system. A directory called "Projects" or "Develoment" are good choices, but if you think of something better, use it. The point is that it's for your convenience. In your open Terminal, type:
+You might want to have all your projects organized under the same directory on your system. A directory called "Projects" or "Develoment" are good choices, but if you think of something better, use it.
 
-	cd
+For more detail on this topic, see [Organizing Your Projects](organizaing-your-projects.md).
 
-This will take you to your HOME directory.
-
-Then type:
-
-    mkdir -p Projects
-
-This creates the directory where your projects will live.
-
-You should only do the above steps **once** on your computer.
+For the purposes of this discussion, I'm assuming you have a
+`Projects` directory in your home directory.
 
 ## Start in your working projects directory
 
@@ -39,9 +31,9 @@ Think of a good name for your project so that you'll remember where it is. Avoid
 
 | Bad | Good |
 |:--------------:|:--------------:|
-| My Simple Project | my_simple_project |
-| Hello (Can You Hear Me?) | hello-can-you-hear-me |
-| $$$ PROFIT!!! | profit |
+| `My Simple Project` | `my_simple_project` |
+| `Hello (Can You Hear Me?)` | `hello-can-you-hear-me` |
+| `$$$ PROFIT!!!` | `profit` |
 
 Let's give your project the name of `doggie_diner_brochure_site`.
 
@@ -96,3 +88,6 @@ $ git status
 On branch master
 nothing to commit, working directory clean
 ```
+
+You may also want to look at
+[setting up your remote repository](setting-up-your-remote.md).
