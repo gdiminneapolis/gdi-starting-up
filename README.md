@@ -39,9 +39,9 @@ Think of a good name for your project so that you'll remember where it is. Avoid
 
 | Bad | Good |
 |:--------------:|:--------------:|
-| My Simple Project | my_simple_project |
-| Hello (Can You Hear Me?) | hello-can-you-hear-me |
-| $$$ PROFIT!!! | profit |
+| `My Simple Project` | `my_simple_project` |
+| `Hello (Can You Hear Me?)` | `hello-can-you-hear-me` |
+| `$$$ PROFIT!!!` | `profit` |
 
 Let's give your project the name of `doggie_diner_brochure_site`.
 
@@ -96,3 +96,6 @@ $ git status
 On branch master
 nothing to commit, working directory clean
 ```
+
+You may also want to look at
+[setting up your remote repository](setting-up-your-remote.md).
