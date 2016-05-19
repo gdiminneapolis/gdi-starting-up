@@ -277,7 +277,7 @@ www.tamouse.org/
   js/
     main.js
     touchable.js
-    vendor
+    vendor/
       bootstrap.min.js
       cbpAnimatedHeader.js
       classie.js
