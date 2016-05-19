@@ -117,6 +117,8 @@ to practice the new things you're learning.
 By contrast, a more involved project, that includes a bunch of
 JavaScript and other Assets would have a deeper structure.
 
+### Small Javascript site
+
 Here's a recent small example of a completely JavaScript-driven web
 site project:
 
@@ -137,6 +139,8 @@ tiny_web_app/
     router.js
   webpack.config.js
 ```
+
+### An Angular 2 site
 
 And this is a beginning Angular 2 application structure:
 
@@ -199,6 +203,94 @@ ng-static-blog/
       component.styl
   webpack.config.js
 ```
+
+### A Jekyll-based static web site
+
+[Jekyll](http://jekyllrb.com) is a static site generator that's
+helpful to build a multi-page content-based web site (such as a blog
+or informational site), and so has it's own structure:
+
+```
+www.tamouse.org/
+  .git/
+  .gitignore
+  .idea/
+  .sass-cache/
+  .setup.sh
+  404.html
+  _baseurl.yml
+  _config.yml
+  _data/
+    boxes.yml
+  _layouts/
+    default.html
+  _site/
+  apple-touch-icon.png
+  browserconfig.xml
+  crossdomain.xml
+  css/
+    animate.min.css
+    bootstrap-theme.css
+    bootstrap-theme.min.css
+    bootstrap.min.css
+    my-styles.css
+    style.css
+  favicon.ico
+  font-awesome
+  fonts/
+    glyphicons-halflings-regular.eot
+    glyphicons-halflings-regular.svg
+    glyphicons-halflings-regular.ttf
+    glyphicons-halflings-regular.woff
+  Gemfile
+  Gemfile.lock
+  Guardfile
+  humans.txt
+  img/
+    art.jpg
+    art_o.jpg
+    beachcreatures-bw-crop-blur.jpg
+    beachcreatures-bw-crop-o.jpg
+    beachcreatures-bw-crop.jpg
+    blog.jpg
+    logo-01.ai
+    logo-01.gif
+    logo-01.jpg
+    logo-01.png
+    logo-01.svg
+    recipes.jpg
+    resume-o.jpg
+    resume.jpg
+    swaac.jpg
+    tamouse-sig.jpg
+    tamouse-sig_greyscale.jpg
+    tamouse-sig_trans_grey.gif
+    wiki.jpg
+    word_map.png
+  index.html
+  js/
+    bootstrap.js
+    bootstrap.min.js
+    cbpAnimatedHeader.js
+    classie.js
+    inspinia.js
+    jquery-2.1.1.js
+    main.js
+    modernizr-custom.js
+    pace.min.js
+    touchable.js
+    vendor
+      bootstrap.min.js
+      jquery-1.11.2.min.js
+      modernizr-2.8.3-respond-1.4.2.min.js
+      npm.js
+    wow.min.js
+  README.md
+  robots.txt
+```
+
+
+## Conclusion
 
 So you can see it can get rather invovled, yet everything has it
 place. The starred directories aren't part of the project's
