@@ -93,3 +93,17 @@ Add all the files to git and create an initial commit:
 git add --all --verbose
 git commit -m 'Initial Commit'
 ```
+
+In the end, your project structure will looking like this:
+
+```
+.git/
+.gitignore
+NAME/
+  __init.py__
+docs/
+  .keep
+setup.py
+tests/
+  __init.py__
+```
