@@ -52,6 +52,7 @@ Add a `.gitignore` file with the following lines:
 __pycache__
 ```
 
+
 Create the following folders:
 
 - NAME - this will actually be the name of your program
@@ -88,6 +89,9 @@ answers right away.)
 Add empty `__init__.py` files to the `NAME` and `test` folder.
 
 Add an empty `.keep` file to the `docs` folder.
+
+Create a `README.md` file in the project root directory to explain to
+users what your project is and how to use it.
 
 Add all the files to git and create an initial commit:
 
