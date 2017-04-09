@@ -141,10 +141,14 @@ install `browser-sync` for the *project*. (You may already hae it
 installed globally, that's okay).
 
 ```
-npm install --save-dev browser-sync
+npm install --save-dev browser-sync # short version: npm i -D browser-sync
 ```
 
-This saves the package locally.
+This saves the package locally and updates the `package.json` file to
+include it in the `"devDependencies"` entry. We only have to use
+browser-sync during development, which is why it's saved there. (If
+you want to bundle other JS libraries you'll want to use the `--save`
+option for them.)
 
 Now, create the browser-sync configuration file in `bs-config.js`:
 
