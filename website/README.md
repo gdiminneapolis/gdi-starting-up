@@ -219,12 +219,12 @@ static site generator.
 ### recommendations:
 
 * If you like Ruby, [Jekyll](https://jekyllrb.com) is the most popular
-  generator of all. Although configured out of the box as a blog
-  engine, it doesn't have to be a blog at all. (As an aside, several
-  of the GDI class slides are build using jekyll with the reveal.js
-  library.)
+  generator of all. It comes with support for Sass.  Although
+  configured out of the box as a blog engine, it doesn't have to be a
+  blog at all. (As an aside, several of the GDI class slides are build
+  using jekyll with the reveal.js library.)
 
-* If you're of a JavaScript persuasion, give [Ghost](https://ghost.org)
-  a look, using yoeman with
-  the
-  [ghost generator](https://github.com/sethvincent/generator-ghost)
+* A good place to start looking is also [Yoeman](http://yoeman.io) and
+  the [webapp](https://github.com/yeoman/generator-webapp#readme)
+  generator. This can be a good setup to also learn about gulp, bower,
+  bable, and some other fun things.
