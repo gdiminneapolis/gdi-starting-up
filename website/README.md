@@ -34,13 +34,13 @@ humans.txt
 
 * `css` folder - this is where your CSS styles will live.
 
-	* You may want to use Eric
+    * You may want to use Eric
       Meyer's
-	  [reset.css](http://meyerweb.com/eric/tools/css/reset/reset.css)
+      [reset.css](http://meyerweb.com/eric/tools/css/reset/reset.css)
       to give a nice, clean starting point for your designs.
 
 
-	* Put your styles into a `main.css` (or `styles.css` or
+    * Put your styles into a `main.css` (or `styles.css` or
       `index.css` or whatever)
 
 * `fonts` folder - if you have webfonts you want to include in your
@@ -168,13 +168,13 @@ boilerplate, a typical setting would look something like this:
 ```javascript
   "files": [
     "*.html",
-	"*.xml",
-	"humans.txt",
-	"robots.txt",
-	"css/*.css",
-	"fonts/*",
-	"img/*",
-	"js/**/*.js"
+    "*.xml",
+    "humans.txt",
+    "robots.txt",
+    "css/*.css",
+    "fonts/*",
+    "img/*",
+    "js/**/*.js"
   ]
 ```
 
