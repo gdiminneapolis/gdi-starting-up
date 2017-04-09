@@ -146,45 +146,81 @@ npm install --save-dev browser-sync
 
 This saves the package locally.
 
-Edit `package.json` and add the following to the `"scripts"` array:
+Now, create the browser-sync configuration file in `bs-config.js`:
+
+```javascript
+/*
+ |--------------------------------------------------------------------------
+ | Browser-sync config file
+ |--------------------------------------------------------------------------
+ */
+module.exports = {
+    "files": [
+        '*.html',
+		'*.xml',
+		'*.txt',
+        'css/**/*.css',
+        'img/**/*',
+        'js/**/*.js'
+    ],
+    "server": true
+};
+```
+
+
+If you create new sub-folders, you'll need to add them as well. Of
+particular note are the entries like `"js/**/*.js"`. This tells
+browser-sync to watch all JavaScript files in all folders under the
+`js` folder. Similarly, the `css` and `img` folders are watched
+recursively.
+
+If you organize other parts of you site in folders and
+sub-folders, you may want to do the same.
+
+Edit `package.json` and add the following to the `"scripts"` array,
+before the default `"tests"` entry:
 
 ```json
   "start": "browser-sync start --config bs-config.js",
 ```
 
-Enter the following command in the terminal / shell:
-
-```
-./node_modules/.bin/browser-sync init
-```
-
-This builds the file `bs-config.js` with the default browser-sync
-settings. Modify this file as you wish, but in particular you'll want
-to specify the files to have browser-sync watch, in the `"files":`
-setting. It starts out as an empty array `[]`, and you can add
-wild-card entries to it. If you're starting from the html5
-boilerplate, a typical setting would look something like this:
-
-```javascript
-  "files": [
-    "*.html",
-    "*.xml",
-    "humans.txt",
-    "robots.txt",
-    "css/*.css",
-    "fonts/*",
-    "img/*",
-    "js/**/*.js"
-  ]
-```
-
-If you create new sub-folders, you'll need to add them as well. Of
-particular note is the last entry: `"js/**/*.js"`. This tells
-browser-sync to watch all JavaScript files in all folders under the
-`js` folder. If you organize other parts of you site in folders and
-sub-folders, you may want to do the same.
+A full example showing the browser-sync integration is available in
+the [example/package.json](example/package.json) file.
 
 After you've updated `package.json` and `bs-config.js` and saved them,
 you can now run `npm start` to see your website automatically
 displayed in the default browser, and automatically refreshed when you
 save changes in your files.
+
+
+## Leveling up: Static Site Generators
+
+You can go even further by using what are referred to as "static site
+generators". There are many to choose from. Popular ones
+include [Jekyll](https://jekyllrb.com) (which is used by Github
+pages),
+[Middleman](https://middlemanapp.com), [Yoeman](http://yeoman.io/)
+(which is sort of a generator mixologist),
+and [many many more](https://staticsitegenerators.net/).
+
+Choosing a generator is largely a matter of comfort with the
+underlying language. You can find generators in nearly every modern
+language out there, including JavaScript, Ruby, Python, GOlang, PHP,
+Perl, shell scripts, and more.
+
+If you want to jump in on learning a new programming language, or even
+practicing in one you already know, you could even write your own
+static site generator.
+
+### recommendations:
+
+* If you like Ruby, [Jekyll](https://jekyllrb.com) is the most popular
+  generator of all. Although configured out of the box as a blog
+  engine, it doesn't have to be a blog at all. (As an aside, several
+  of the GDI class slides are build using jekyll with the reveal.js
+  library.)
+
+* If you're of a JavaScript persuasion, give [Ghost](https://ghost.org)
+  a look, using yoeman with
+  the
+  [ghost generator](https://github.com/sethvincent/generator-ghost)
