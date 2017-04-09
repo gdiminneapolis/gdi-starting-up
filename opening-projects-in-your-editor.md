@@ -6,27 +6,39 @@ on projects is different, because you need to keep the relationships between the
 different files in the proper locations.
 
 All the modern code editors we use, Atom, Sublime Text, WebStorm, Visual Code, understand
-this concept and allow you to open a project as a whole, and keep track of the files 
+this concept and allow you to open a project as a whole, and keep track of the files
 and folders in it. They give you a folder tree view that you should use to open files,
 create files, move files, and so on.
 
 At least on the Mac, if you do start from the finder, you can drag and drop the project folder
-to the editor icon in the Dock and drop it there; that will open that editor with that 
+to the editor icon in the Dock and drop it there; that will open that editor with that
 project folder.
 
 ## Sublime Text
 
 ### Mac
 
+#### From the Sublime Text editor window
+
 On the mac, from the File -> Open dialog, you will navigate to the project's *parent*
-folder, select the project folder (just click on it, don't double click it), and 
+folder, select the project folder (just click on it, don't double click it), and
 click the `Open` button.
 
-#### From Terminal
+#### From the Terminal / Command Line
 
-Copy or link the file ` /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl` to
-someplace on your path (`/usr/local/bin/subl` is popular). You'll probably need `sudo` to make the link
-or copy work and ensure execute permissions. Then you can open a project from the command line as:
+With Sublime Text, you have to set up the command line tool, first,
+for your computer. You should only have to do this once.
+
+Create a symbolic ink to the file `/Applications/Sublime\ Text\
+2.app/Contents/SharedSupport/bin/subl` to someplace on your path
+(`/usr/local/bin/` is popular). You'll probably need `sudo` to make
+the link or copy work and ensure execute permissions.
+
+    $ sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin
+
+(`sudo` will ask for your user's password if you haven't used it in a while.)
+
+Then you can open a project from the command line as:
 
 ```bash
 cd Path/To/myProject
@@ -63,4 +75,3 @@ extra installation bits.
 cd path/to/project
 atom .
 ```
-
