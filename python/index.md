@@ -35,6 +35,8 @@ should [follow their instructions][django-instructions].
 
 ## A basic guide to setting up a standalone Python project
 
+(A sample template is in the [template](./template/) directory.)
+
 Starting in your projects folder:
 
 ```bash
